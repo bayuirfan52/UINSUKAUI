@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">UIN SUKA UI</string>
+    <string name="sistem_informasi_akademik">Sistem Informasi Akademik</string>
+    <string name="action_sign_in">Masuk</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Password</string>
+    <string name="prompt_email">Username</string>
+    <string name="uin_sunan_kalijaga">UIN Sunan Kalijaga</string>
+    <string name="login_failed">Login Gagal</string>
+    <string name="invalid_username">Username Salah</string>
+    <string name="invalid_password">Password Salah</string>
+    <string name="kalendar_dan_pedoman_akademik">Kalendar dan Pedoman Akademik</string>
+    <string name="mata_kuliah_dan_dosen">Mata Kuliah dan Dosen</string>
+    <string name="panduan_dan_tarif_pembayaran">Panduan dan Tarif Pembayaran</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="jadwal">Jadwal</string>
+    <string name="kegiatan">Kegiatan</string>
+    <string name="presensi">Presensi</string>
+    <string name="keuangan">Keuangan</string>
+    <string name="krs">KRS</string>
+    <string name="khs">KHS</string>
+    <string name="e_learning">E Learning</string>
+    <string name="tugas_akhir">Tugas Akhir</string>
+    <string name="berita_kampus">Berita Kampus</string>
+</resources>
