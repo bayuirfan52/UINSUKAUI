@@ -2,8 +2,10 @@ package com.example.uinsukaui.ui.home
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
+import com.example.uinsukaui.R
 import com.example.uinsukaui.databinding.ActivityHomeBinding
 
 class HomeActivity : AppCompatActivity() {
@@ -12,6 +14,7 @@ class HomeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        window.statusBarColor = ContextCompat.getColor(this, R.color.orange_brown)
 
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)

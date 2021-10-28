@@ -19,30 +19,38 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:scaleType="centerCrop"
             tools:ignore="ContentDescription"
-            tools:src="@drawable/ic_login" />
+            tools:src="@drawable/img_sample_talent" />
 
-        <TextView
-            android:id="@+id/txt_headline"
-            style="@style/Theme.UINSUKAUI.TextView.Regular.Black.Medium"
+        <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:layout_marginHorizontal="20dp"
-            android:maxLines="2"
-            android:textColor="@color/white"
-            app:layout_constraintBottom_toTopOf="@+id/txt_date"
-            tools:text="Budi Naik Haji Dua Kali Sama Susi" />
-
-        <TextView
-            android:id="@+id/txt_date"
-            style="@style/Theme.UINSUKAUI.TextView.Regular.Black"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginHorizontal="20dp"
-            android:textColor="@color/white"
+            android:background="@color/black_transparent"
             app:layout_constraintBottom_toBottomOf="parent"
-            tools:text="Selasa, 22 Agustus 2060" />
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_headline"
+                style="@style/Theme.UINSUKAUI.TextView.Regular.Black.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:maxLines="2"
+                android:textColor="@color/white"
+                tools:text="Budi Naik Haji Dua Kali Sama Susi" />
+
+            <TextView
+                android:id="@+id/txt_date"
+                style="@style/Theme.UINSUKAUI.TextView.Regular.Black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="@color/white"
+                tools:text="Selasa, 22 Agustus 2060" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </com.google.android.material.card.MaterialCardView>
