@@ -15,7 +15,7 @@
             android:exported="false"
             android:label="@string/title_activity_home"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.UINSUKAUI.NoActionBar" />
+            android:theme="@style/Theme.UINSUKAUI.NoActionBar.DarkStatusBar" />
         <activity
             android:name=".ui.login.LoginActivity"
             android:exported="false"
