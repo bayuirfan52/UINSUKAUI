@@ -83,6 +83,8 @@
             android:layout_marginHorizontal="40dp"
             android:layout_marginTop="8dp"
             android:hint="@string/prompt_password"
+            android:drawableStart="@drawable/ic_vpn_key"
+            android:drawablePadding="10dp"
             android:imeActionLabel="@string/action_sign_in_short"
             android:imeOptions="actionDone"
             android:inputType="textPassword"
@@ -100,6 +102,8 @@
             android:layout_marginHorizontal="40dp"
             android:layout_marginTop="20dp"
             android:hint="@string/prompt_email"
+            android:drawableStart="@drawable/ic_account_circle"
+            android:drawablePadding="10dp"
             android:inputType="textEmailAddress"
             android:selectAllOnFocus="true"
             app:layout_constraintEnd_toEndOf="parent"
@@ -144,6 +148,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
+                        android:paddingHorizontal="5dp"
                         android:gravity="center"
                         android:text="@string/kalendar_dan_pedoman_akademik" />
                 </androidx.appcompat.widget.LinearLayoutCompat>
@@ -178,6 +183,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
+                        android:paddingHorizontal="5dp"
                         android:gravity="center"
                         android:text="@string/mata_kuliah_dan_dosen" />
                 </androidx.appcompat.widget.LinearLayoutCompat>
@@ -212,6 +218,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
+                        android:paddingHorizontal="5dp"
                         android:gravity="center"
                         android:text="@string/panduan_dan_tarif_pembayaran" />
                 </androidx.appcompat.widget.LinearLayoutCompat>
